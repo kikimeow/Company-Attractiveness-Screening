@@ -31,5 +31,5 @@ To assess consistency, the changes of the KPI measurements between recent values
 Example: 
 Web rank difference = Web rank difference(rolling 5 day average) - Web rank difference(rolling 90 day average) should be small.
 
-**Why is rolling averages used? ** <br> 
+**Why is rolling averages used** <br> 
 The advantage of rolling averages is that it smooths out some noise, and it is also easier to see the changes in a timeseries. It is often useful to compare a short-term moving average against a longer-term moving average. In this analysis, the most recent observation of the moving averages are used for modeling.
